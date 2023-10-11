@@ -1,0 +1,7 @@
+import pandas as pd
+kicking_2023_url = 'https://www.pro-football-reference.com/years/2023/kicking.htm'
+
+kicking_2023_tables = pd.read_html(kicking_2023_url)
+kicking_2023 = kicking_2023_tables[0]
+print(kicking_2023)
+kicking_2023.to_csv("kicking_2023.csv")
