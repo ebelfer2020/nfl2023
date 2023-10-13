@@ -1,7 +1,7 @@
 bears
 bengals
 bills
-broncons
+broncos
 browns
 buccaneers
 cardinals
@@ -11,6 +11,7 @@ colts
 commanders
 cowboys
 dolphins
+eagles
 falcons
 giants
 jaguars
@@ -23,6 +24,7 @@ patriots
 raiders
 rams
 ravens
+saints
 seahawks
 steelers
 texans
