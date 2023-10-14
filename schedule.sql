@@ -1,512 +1,544 @@
-C R E A T E   T A B L E   b e a r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b e a r s / b e a r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b e a r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   b e n g a l s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b e n g a l s / b e n g a l s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b e n g a l s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   b i l l s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b i l l s / b i l l s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b i l l s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   b r o n c o s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b r o n c o s / b r o n c o s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b r o n c o s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   b r o w n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b r o w n s / b r o w n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b r o w n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   b u c c a n e e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / b u c c a n e e r s / b u c c a n e e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   b u c c a n e e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c a r d i n a l s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c a r d i n a l s / c a r d i n a l s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c a r d i n a l s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c h a r g e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c h a r g e r s / c h a r g e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c h a r g e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c h i e f s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c h i e f s / c h i e f s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c h i e f s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c o l t s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c o l t s / c o l t s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c o l t s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c o m m a n d e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c o m m a n d e r s / c o m m a n d e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c o m m a n d e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   c o w b o y s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / c o w b o y s / c o w b o y s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   c o w b o y s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   d o l p h i n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / d o l p h i n s / d o l p h i n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   d o l p h i n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   e a g l e s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / e a g l e s / e a g l e s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   e a g l e s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   f a l c o n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / f a l c o n s / f a l c o n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   f a l c o n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   g i a n t s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / g i a n t s / g i a n t s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   g i a n t s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   j a g u a r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / j a g u a r s / j a g u a r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   j a g u a r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   j e t s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / j e t s / j e t s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   j e t s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   l i o n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / l i o n s / l i o n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   l i o n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   n i n e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / n i n e r s / n i n e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   n i n e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   p a c k e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / p a c k e r s / p a c k e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   p a c k e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   p a n t h e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / p a n t h e r s / p a n t h e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   p a n t h e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   p a t r i o t s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / p a t r i o t s / p a t r i o t s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   p a t r i o t s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   r a i d e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / r a i d e r s / r a i d e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   r a i d e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   r a m s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / r a m s / r a m s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   r a m s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   r a v e n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / r a v e n s / r a v e n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   r a v e n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   s a i n t s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / s a i n t s / s a i n t s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   s a i n t s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   s e a h a w k s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / s e a h a w k s / s e a h a w k s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   s e a h a w k s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   s t e e l e r s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / s t e e l e r s / s t e e l e r s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   s t e e l e r s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   t e x a n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / t e x a n s / t e x a n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   t e x a n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   t i t a n s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / t i t a n s / t i t a n s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   t i t a n s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
-C R E A T E   T A B L E   v i k i n g s _ 2 0 2 3 _ s c h e d u l e 
- i d   I N T E G E R , 
- w e e k   I N T E G E R , 
- d a t e   V A R C H A R ( 1 5 ) , 
- t i m e   V A R C H A R ( 1 0 ) , 
- o p p o n e n t   V A R C H A R ( 3 0 ) , 
- r e s u l t   V A R C H A R   ( 1 5 ) , 
- r e c o n d   V A R C H A R   ( 7 ) , 
- v e n u e     V A R C H A R   ( 3 0 ) , 
- n e t w o r k   V A R C H A R ( 1 5 ) ,   
- r e c a p   V A R C H A R ( 5 ) ,   
- P R I M A R Y   K E Y   ( i d ) ) ;
-L O A D   D A T A   L O C A L   I N F I L E   '   ~ / n f l 2 0 2 3 / v i k i n g s / v i k i n g s _ 2 0 2 3 _ s c h e d u l e . c s v ' 
- I N T O   T A B L E   v i k i n g s _ 2 0 2 3 _ s c h e d u l e 
- F I E L D S   T E R M I N A T E D   B Y   ' , ' 
- I G N O R E   1   R O W S ;
+CREATE TABLE bears_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/bears/bears_2023_schedule.csv'
+INTO TABLE bears_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE bengals_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/bengals/bengals_2023_schedule.csv'
+INTO TABLE bengals_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE bills_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/bills/bills_2023_schedule.csv'
+INTO TABLE bills_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE broncos_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/broncos/broncos_2023_schedule.csv'
+INTO TABLE broncos_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE browns_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/browns/browns_2023_schedule.csv'
+INTO TABLE browns_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE buccaneers_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/buccaneers/buccaneers_2023_schedule.csv'
+INTO TABLE buccaneers_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE cardinals_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/cardinals/cardinals_2023_schedule.csv'
+INTO TABLE cardinals_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE chargers_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/chargers/chargers_2023_schedule.csv'
+INTO TABLE chargers_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE chiefs_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/chiefs/chiefs_2023_schedule.csv'
+INTO TABLE chiefs_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE colts_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/colts/colts_2023_schedule.csv'
+INTO TABLE colts_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE commanders_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/commanders/commanders_2023_schedule.csv'
+INTO TABLE commanders_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE cowboys_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/cowboys/cowboys_2023_schedule.csv'
+INTO TABLE cowboys_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE dolphins_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/dolphins/dolphins_2023_schedule.csv'
+INTO TABLE dolphins_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE eagles_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/eagles/eagles_2023_schedule.csv'
+INTO TABLE eagles_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE falcons_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/falcons/falcons_2023_schedule.csv'
+INTO TABLE falcons_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE giants_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/giants/giants_2023_schedule.csv'
+INTO TABLE giants_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE jaguars_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/jaguars/jaguars_2023_schedule.csv'
+INTO TABLE jaguars_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE jets_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/jets/jets_2023_schedule.csv'
+INTO TABLE jets_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE lions_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/lions/lions_2023_schedule.csv'
+INTO TABLE lions_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE niners_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/niners/niners_2023_schedule.csv'
+INTO TABLE niners_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE packers_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/packers/packers_2023_schedule.csv'
+INTO TABLE packers_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE panthers_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/panthers/panthers_2023_schedule.csv'
+INTO TABLE panthers_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE patriots_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/patriots/patriots_2023_schedule.csv'
+INTO TABLE patriots_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE raiders_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/raiders/raiders_2023_schedule.csv'
+INTO TABLE raiders_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE rams_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/rams/rams_2023_schedule.csv'
+INTO TABLE rams_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE ravens_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/ravens/ravens_2023_schedule.csv'
+INTO TABLE ravens_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE saints_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/saints/saints_2023_schedule.csv'
+INTO TABLE saints_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE seahawks_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/seahawks/seahawks_2023_schedule.csv'
+INTO TABLE seahawks_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE steelers_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/steelers/steelers_2023_schedule.csv'
+INTO TABLE steelers_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE texans_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/texans/texans_2023_schedule.csv'
+INTO TABLE texans_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE titans_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/titans/titans_2023_schedule.csv'
+INTO TABLE titans_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;
+CREATE TABLE vikings_2023_schedule (
+id INTEGER,
+week INTEGER,
+date VARCHAR(15),
+time VARCHAR(10),
+opponent VARCHAR(30),
+result VARCHAR (15),
+recond VARCHAR (7),
+venue  VARCHAR (30),
+network VARCHAR(15), 
+recap VARCHAR(5), 
+PRIMARY KEY (id) 
+);
+LOAD DATA LOCAL INFILE '~/nfl2023/vikings/vikings_2023_schedule.csv'
+INTO TABLE vikings_2023_schedule
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;

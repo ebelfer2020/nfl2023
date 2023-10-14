@@ -26,16 +26,13 @@ def load_data (team):
            "IGNORE 1 ROWS;"
   return data
 
-file2 = open ('schedule.sql', 'w')
+file2 = open ('update.sql', 'w')
 
 for line in lines:
-   mtable = create_table(line)
-   print (mtable)
-   print ()
    load_data_out = load_data(line)
    print (load_data_out)
    print ()
-   output = ''.join(mtable) + "\n" + ''.join(load_data_out) + "\n"
+   output = ''.join(load_data_out) + "\n"
    file2.write (output) 
 
 file2. close
