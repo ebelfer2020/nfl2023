@@ -1,38 +1,19 @@
-# create sql tables and insert data
+# views sql tables
 
 file1 = open ('sorted.txt', 'r')
 lines = file1.readlines()
 
-def create_table (team):
-  table = "CREATE TABLE " + team.strip('\n') + "_2023_schedule (\n" \
-           "id INTEGER,\n" \
-           "week INTEGER,\n" \
-           "date VARCHAR(15),\n" \
-           "time VARCHAR(10),\n" \
-           "opponent VARCHAR(30),\n" \
-           "result VARCHAR (15),\n"\
-           "recond VARCHAR (7),\n" \
-           "venue  VARCHAR (30),\n" \
-           "network VARCHAR(15), \n" \
-           "recap VARCHAR(5), \n" \
-           "PRIMARY KEY (id) \n" \
-           ");"
-  return table
+def view_table (team):
+    view = "SELECT * FROM " + team.strip('\n') + "_2023_schedule;\n"
+    return view
 
-def load_data (team):
-  data = "LOAD DATA LOCAL INFILE '~/nfl2023/" + team.strip('\n') + "/" +team.strip('\n') + "_2023_schedule.csv'\n" \
-           "INTO TABLE " + team.strip('\n') + "_2023_schedule\n" \
-           "FIELDS TERMINATED BY ','\n" \
-           "IGNORE 1 ROWS;"
-  return data
 
-file2 = open ('update.sql', 'w')
+file2 = open ('view.sql', 'w')
 
 for line in lines:
-   load_data_out = load_data(line)
-   print (load_data_out)
-   print ()
-   output = ''.join(load_data_out) + "\n"
+   view_table_out = view_table(line)
+   print (view_table_out)
+   output = ''.join(view_table_out) + "\n"
    file2.write (output) 
 
 file2. close

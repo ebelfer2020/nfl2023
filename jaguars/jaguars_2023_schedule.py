@@ -4,4 +4,4 @@ jaguars_2023_url = 'https://en.wikipedia.org/wiki/2023_Jacksonville_Jaguars_seas
 jaguars_2023_tables = pd.read_html(jaguars_2023_url)
 jaguars_2023_schedule = jaguars_2023_tables[6]
 print(jaguars_2023_schedule)
-jaguars_2023_schedule.to_csv("jaguars_2023_schedule.csv")
+jaguars_2023_schedule.to_csv("~/nfl2023/jaguars/jaguars_2023_schedule.csv")

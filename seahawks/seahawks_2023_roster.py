@@ -18,4 +18,4 @@ seahawks_2023_def_roster.to_csv("seahawks_2023_def_roster.csv")
 seahawks_2023_st_roster = seahawks_2023_tables[2]
 print ("Speical Teams")
 print(seahawks_2023_st_roster)
-seahawks_2023_st_roster.to_csv("seahawks_2023_st_roster.csv")
+seahawks_2023_st_roster.to_csv("~/nfl2023/seahawks/seahawks_2023_st_roster.csv")
